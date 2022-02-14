@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingHorizontal="15dp"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
         android:orientatoin="vertical"
         android:gravity="center">
 
@@ -19,7 +21,6 @@
             android:src="@drawable/nepplus_logo01"/>
 
     </LinearLayout>
-
 
 
     <TextView
