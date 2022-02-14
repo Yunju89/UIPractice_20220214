@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="20dp"
-        android:orientatoin="vertical"
         android:gravity="center">
 
         <ImageView
@@ -77,6 +76,7 @@
             android:layout_height="wrap_content"
             android:text="여성"/>
         <RadioButton
+            android:enabled="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="공개 안함"/>
@@ -90,6 +90,7 @@
         android:text="이용 약관에 동의합니다."/>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="개인정보 이용에 동의합니다."/>
@@ -97,6 +98,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
         android:textAllCaps="false"
         android:text="sigh up"/>
 
